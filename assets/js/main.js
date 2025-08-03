@@ -13,6 +13,13 @@ const tareas = [
 let contadorTareas = 4;
 
 btnAgregar.addEventListener("click", () => {
+    const textoTarea = inputTarea.value.trim();
+
+    if (textoTarea === "") {
+        alert("Por favor ingresa una Tarea");
+        return;
+    }
+
     const nuevaTarea = {
         id: contadorTareas++,
         tarea: inputTarea.value,
