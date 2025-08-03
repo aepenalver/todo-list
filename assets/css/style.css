@@ -1,0 +1,30 @@
+.card-header {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.form-check-input {
+    border: 1.5px solid black;
+}
+
+.boxes {
+    justify-content: space-between;
+}
+
+.tarea-completada {
+    text-decoration: 0.2em line-through;
+}
+
+.col-id,
+.col-check,
+.col-borrar {
+    width: 5%;
+}
+
+.col-estado {
+    width: 20%;
+}
+
+.col-tarea {
+    width: auto;
+}
