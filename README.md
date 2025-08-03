@@ -8,4 +8,19 @@ Lista de tareas: Proyecto desarrollado para mostrar conocimientos en manipulaci�
 
 -   HTML5
 -   CSS3
--   JAVASCRIPT
+-   JavaScript
+
+## Estrcutura del Proyecto
+
+```
+todo-list/
+│
+├── assets
+│   ├── css
+│   │   └── style.css
+│   └── js
+│       └── main.js
+├── index.html
+└── README.md
+
+```
